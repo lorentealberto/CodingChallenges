@@ -34,6 +34,7 @@ function draw() {
 	
 	/*Incremenet el ángulo de rotación para que para que parezca una animación*/
 	a += 0.01;
+}
 	
 
 /*Función que genera nuevas cajas a partir de las anteriores cada vez que se
@@ -51,10 +52,10 @@ function mousePressed() {
 }
 
 /**Objeto que representa una caja
-@param x: Posición X de la caja
-@param y: Posición Y de la caja
-@param z: Posición Z de la caja
-@param tam: Tamaño de la caja*/
+param x: Posición X de la caja
+param y: Posición Y de la caja
+param z: Posición Z de la caja
+param tam: Tamaño de la caja*/
 function Box(x, y, z, tam) {
 	this.pos = createVector(x, y, z);
 	this.tam = tam;
